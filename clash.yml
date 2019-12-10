@@ -207,86 +207,86 @@ Rule:
   - DOMAIN-SUFFIX,tidal.com,GlobalMedia
   ### (Video)
   # > ABC
-  - DOMAIN-SUFFIX,edgedatg.com,Globalmedia
-  - DOMAIN-SUFFIX,go.com,Globalmedia
+  - DOMAIN-SUFFIX,edgedatg.com,GlobalMedia
+  - DOMAIN-SUFFIX,go.com,GlobalMedia
   # > AbemaTV
-  - DOMAIN-SUFFIX,abema.tv,Globalmedia
-  - DOMAIN-SUFFIX,abema.io,Globalmedia
-  - DOMAIN-SUFFIX,ameba.jp,Globalmedia
-  - DOMAIN-SUFFIX,hayabusa.io,Globalmedia
-  - DOMAIN-SUFFIX,akamaized.net,Globalmedia
-  - DOMAIN,linear-abematv.akamaized.net,Globalmedia
+  - DOMAIN-SUFFIX,abema.tv,GlobalMedia
+  - DOMAIN-SUFFIX,abema.io,GlobalMedia
+  - DOMAIN-SUFFIX,ameba.jp,GlobalMedia
+  - DOMAIN-SUFFIX,hayabusa.io,GlobalMedia
+  - DOMAIN-SUFFIX,akamaized.net,GlobalMedia
+  - DOMAIN,linear-abematv.akamaized.net,GlobalMedia
   - DOMAIN,ds-linear-abematv.akamaized.net,GlobalMedia
   - DOMAIN,ds-vod-abematv.akamaized.net,GlobalMedia
   # > All4
   - DOMAIN-SUFFIX,c4assets.com,GlobalMedia
   - DOMAIN-SUFFIX,channel4.com,GlobalMedia
   # > Amazon Prime Video
-  - DOMAIN-SUFFIX,aiv-cdn.net,Globalmedia
-  - DOMAIN-SUFFIX,amazonvideo.com,Globalmedia
+  - DOMAIN-SUFFIX,aiv-cdn.net,GlobalMedia
+  - DOMAIN-SUFFIX,amazonvideo.com,GlobalMedia
   - DOMAIN-SUFFIX,primevideo.com,GlobalMedia
   # > Bahamut
-  - DOMAIN-SUFFIX,bahamut.com.tw,Globalmedia
-  - DOMAIN-SUFFIX,gamer.com.tw,Globalmedia
-  - DOMAIN-SUFFIX,hinet.net,Globalmedia
+  - DOMAIN-SUFFIX,bahamut.com.tw,GlobalMedia
+  - DOMAIN-SUFFIX,gamer.com.tw,GlobalMedia
+  - DOMAIN-SUFFIX,hinet.net,GlobalMedia
   # > BBC
-  - DOMAIN-SUFFIX,bbc.com,Globalmedia
-  - DOMAIN-SUFFIX,bbc.co,Globalmedia
-  - DOMAIN-SUFFIX,bbc.co.uk,Globalmedia
-  - DOMAIN-KEYWORD,bbcfmt,Globalmedia
-  - DOMAIN-KEYWORD,uk-live,Globalmedia
-  - DOMAIN-SUFFIX,bbci.co.uk,Globalmedia
-  - DOMAIN-SUFFIX,bbci.co,Globalmedia
+  - DOMAIN-SUFFIX,bbc.com,GlobalMedia
+  - DOMAIN-SUFFIX,bbc.co,GlobalMedia
+  - DOMAIN-SUFFIX,bbc.co.uk,GlobalMedia
+  - DOMAIN-KEYWORD,bbcfmt,GlobalMedia
+  - DOMAIN-KEYWORD,uk-live,GlobalMedia
+  - DOMAIN-SUFFIX,bbci.co.uk,GlobalMedia
+  - DOMAIN-SUFFIX,bbci.co,GlobalMedia
   # > CHOCO TV
-  - DOMAIN-SUFFIX,chocotv.com.tw,Globalmedia
+  - DOMAIN-SUFFIX,chocotv.com.tw,GlobalMedia
   # > DAZN
   - DOMAIN-SUFFIX,dazn.com,GlobalMedia
   - DOMAIN-SUFFIX,dazn-api.com,GlobalMedia
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalMedia
   - DOMAIN-KEYWORD,voddazn,GlobalMedia
   # > Disney Plus
-  - DOMAIN-SUFFIX,bamgrid.com,Globalmedia
-  - DOMAIN-SUFFIX,disney-plus.net,Globalmedia
-  - DOMAIN-SUFFIX,disneyplus.com,Globalmedia
-  - DOMAIN-SUFFIX,dssott.com,Globalmedia
-  - DOMAIN,cdn.registerdisney.go.com,Globalmedia
-  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Globalmedia
+  - DOMAIN-SUFFIX,bamgrid.com,GlobalMedia
+  - DOMAIN-SUFFIX,disney-plus.net,GlobalMedia
+  - DOMAIN-SUFFIX,disneyplus.com,GlobalMedia
+  - DOMAIN-SUFFIX,dssott.com,GlobalMedia
+  - DOMAIN,cdn.registerdisney.go.com,GlobalMedia
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalMedia
   # > encoreTVB
   - DOMAIN-SUFFIX,encoretvb.com,GlobalMedia
   - DOMAIN,edge.api.brightcove.com,GlobalMedia
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,GlobalMedia
   # > Fox+
-  - DOMAIN-KEYWORD,foxplus,Globalmedia
-  - DOMAIN-SUFFIX,config.fox.com,Globalmedia
-  - DOMAIN-SUFFIX,emome.net,Globalmedia
-  - DOMAIN-SUFFIX,fox.com,Globalmedia
-  - DOMAIN-SUFFIX,foxdcg.com,Globalmedia
-  - DOMAIN-SUFFIX,foxnow.com,Globalmedia
-  - DOMAIN-SUFFIX,foxplus.com,Globalmedia
-  - DOMAIN-SUFFIX,foxplay.com,Globalmedia
-  - DOMAIN-SUFFIX,ipinfo.io,Globalmedia
-  - DOMAIN-SUFFIX,mstage.io,Globalmedia
-  - DOMAIN-SUFFIX,now.com,Globalmedia
-  - DOMAIN-SUFFIX,theplatform.com,Globalmedia
-  - DOMAIN-SUFFIX,urlload.net,Globalmedia
+  - DOMAIN-KEYWORD,foxplus,GlobalMedia
+  - DOMAIN-SUFFIX,config.fox.com,GlobalMedia
+  - DOMAIN-SUFFIX,emome.net,GlobalMedia
+  - DOMAIN-SUFFIX,fox.com,GlobalMedia
+  - DOMAIN-SUFFIX,foxdcg.com,GlobalMedia
+  - DOMAIN-SUFFIX,foxnow.com,GlobalMedia
+  - DOMAIN-SUFFIX,foxplus.com,GlobalMedia
+  - DOMAIN-SUFFIX,foxplay.com,GlobalMedia
+  - DOMAIN-SUFFIX,ipinfo.io,GlobalMedia
+  - DOMAIN-SUFFIX,mstage.io,GlobalMedia
+  - DOMAIN-SUFFIX,now.com,GlobalMedia
+  - DOMAIN-SUFFIX,theplatform.com,GlobalMedia
+  - DOMAIN-SUFFIX,urlload.net,GlobalMedia
   # > HBO && HBO Go
-  - DOMAIN-SUFFIX,hbo.com,Globalmedia
-  - DOMAIN-SUFFIX,hbogo.com,Globalmedia
+  - DOMAIN-SUFFIX,hbo.com,GlobalMedia
+  - DOMAIN-SUFFIX,hbogo.com,GlobalMedia
   - DOMAIN-SUFFIX,hbonow.com,GlobalMedia
-  - DOMAIN-SUFFIX,hboasia.com,Globalmedia
-  - DOMAIN-SUFFIX,hbogoasia.hk,Globalmedia
-  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,Globalmedia
+  - DOMAIN-SUFFIX,hboasia.com,GlobalMedia
+  - DOMAIN-SUFFIX,hbogoasia.hk,GlobalMedia
+  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GlobalMedia
   # > 华文电视
   - DOMAIN-SUFFIX,5itv.tv,GlobalMedia
   - DOMAIN-SUFFIX,ocnttv.com,GlobalMedia
   # > Hulu
-  - DOMAIN-SUFFIX,hulu.com,Globalmedia
-  - DOMAIN-SUFFIX,huluim.com,Globalmedia
+  - DOMAIN-SUFFIX,hulu.com,GlobalMedia
+  - DOMAIN-SUFFIX,huluim.com,GlobalMedia
   - DOMAIN-SUFFIX,hulu.jp,GlobalMedia
-  - DOMAIN-SUFFIX,happyon.jp,Globalmedia
-  - DOMAIN-SUFFIX,hulustream.com,Globalmedia
+  - DOMAIN-SUFFIX,happyon.jp,GlobalMedia
+  - DOMAIN-SUFFIX,hulustream.com,GlobalMedia
   # > Imkan
-  - DOMAIN-SUFFIX,imkan.tv,Globalmedia
+  - DOMAIN-SUFFIX,imkan.tv,GlobalMedia
   # > ITV
   - DOMAIN-SUFFIX,itv.com,GlobalMedia
   - DOMAIN-SUFFIX,itvstatic.com,GlobalMedia
@@ -306,18 +306,18 @@ Rule:
   - DOMAIN-SUFFIX,my5.tv,GlobalMedia
   - DOMAIN,d349g9zuie06uo.cloudfront.net,GlobalMedia
   # > MytvSUPER
-  - DOMAIN-SUFFIX,tvb.com,Globalmedia
-  - DOMAIN-SUFFIX,mytvsuper.com,Globalmedia
-  - DOMAIN-KEYWORD,nowtv100,Globalmedia
-  - DOMAIN-KEYWORD,rthklive,Globalmedia
+  - DOMAIN-SUFFIX,tvb.com,GlobalMedia
+  - DOMAIN-SUFFIX,mytvsuper.com,GlobalMedia
+  - DOMAIN-KEYWORD,nowtv100,GlobalMedia
+  - DOMAIN-KEYWORD,rthklive,GlobalMedia
   # > Netflix
-  - DOMAIN-SUFFIX,netflix.com,Globalmedia
-  - DOMAIN-SUFFIX,netflix.net,Globalmedia
-  - DOMAIN-SUFFIX,nflxext.com,Globalmedia
-  - DOMAIN-SUFFIX,nflximg.com,Globalmedia
-  - DOMAIN-SUFFIX,nflximg.net,Globalmedia
-  - DOMAIN-SUFFIX,nflxso.net,Globalmedia
-  - DOMAIN-SUFFIX,nflxvideo.net,Globalmedia
+  - DOMAIN-SUFFIX,netflix.com,GlobalMedia
+  - DOMAIN-SUFFIX,netflix.net,GlobalMedia
+  - DOMAIN-SUFFIX,nflxext.com,GlobalMedia
+  - DOMAIN-SUFFIX,nflximg.com,GlobalMedia
+  - DOMAIN-SUFFIX,nflximg.net,GlobalMedia
+  - DOMAIN-SUFFIX,nflxso.net,GlobalMedia
+  - DOMAIN-SUFFIX,nflxvideo.net,GlobalMedia
   # > niconico
   - DOMAIN-SUFFIX,dmc.nico,GlobalMedia
   - DOMAIN-SUFFIX,nicovideo.jp,GlobalMedia
@@ -330,8 +330,8 @@ Rule:
   - DOMAIN-SUFFIX,pornhub.com,GlobalMedia
   - DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
   # > Sky GO
-  - DOMAIN-SUFFIX,sky.com,Globalmedia
-  - DOMAIN-SUFFIX,skygo.co.nz,Globalmedia
+  - DOMAIN-SUFFIX,sky.com,GlobalMedia
+  - DOMAIN-SUFFIX,skygo.co.nz,GlobalMedia
   # > 台湾好
   - DOMAIN-SUFFIX,skyking.com.tw,GlobalMedia
   - DOMAIN,hamifans.emome.net,GlobalMedia
@@ -341,11 +341,11 @@ Rule:
   - DOMAIN-SUFFIX,ttvnw.net,GlobalMedia
   - DOMAIN-SUFFIX,jtvnw.net,GlobalMedia
   # > viuTV
-  - DOMAIN-SUFFIX,viu.tv,Globalmedia
+  - DOMAIN-SUFFIX,viu.tv,GlobalMedia
   # > Youtube
-  - DOMAIN-KEYWORD,youtube,Globalmedia
-  - DOMAIN-SUFFIX,googlevideo.com,Globalmedia
-  - DOMAIN-SUFFIX,youtu.be,Globalmedia
+  - DOMAIN-KEYWORD,youtube,GlobalMedia
+  - DOMAIN-SUFFIX,googlevideo.com,GlobalMedia
+  - DOMAIN-SUFFIX,youtu.be,GlobalMedia
   - DOMAIN,youtubei.googleapis.com,GlobalMedia
   ## (DNS Cache Pollution Protection)
   # > GitHub
