@@ -379,8 +379,10 @@ Rule:
   - DOMAIN-SUFFIX,live.com,PROXY
   - DOMAIN-SUFFIX,live.net,PROXY
   # >> others
+  - DOMAIN-SUFFIX,microsofttranslator.com,PROXY
   - DOMAIN-SUFFIX,onenote.com,PROXY
   - DOMAIN-SUFFIX,outlook.com,PROXY
+  - DOMAIN-SUFFIX,sharepoint.com,PROXY
   - DOMAIN-SUFFIX,skype.com,PROXY
   - DOMAIN-SUFFIX,windows.com,PROXY
   - DOMAIN-SUFFIX,windows.net,PROXY
@@ -933,7 +935,6 @@ Rule:
   - DOMAIN-SUFFIX,manyvids.com,PROXY
   - DOMAIN-SUFFIX,mashable.com,PROXY
   - DOMAIN-SUFFIX,mathjax.org,PROXY
-  - DOMAIN-SUFFIX,microsofttranslator.com,PROXY
   - DOMAIN-SUFFIX,mindnode.com,PROXY
   - DOMAIN-SUFFIX,modmyi.com,PROXY
   - DOMAIN-SUFFIX,msedge.net,PROXY
