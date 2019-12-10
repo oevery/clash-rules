@@ -356,7 +356,9 @@ Rule:
   - DOMAIN-SUFFIX,blogger.com,PROXY
   - DOMAIN-SUFFIX,getoutline.org,PROXY
   - DOMAIN-SUFFIX,goo.gl,PROXY
+  - DOMAIN-SUFFIX,google.com,PROXY
   - DOMAIN-KEYWORD,google,PROXY
+  - DOMAIN,google.com,PROXY
   - DOMAIN-KEYWORD,blogspot,PROXY
   - DOMAIN-SUFFIX,blog.jp,PROXY
   - DOMAIN-SUFFIX,blogcdn.com,PROXY
