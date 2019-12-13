@@ -352,6 +352,7 @@ Rule:
   - DOMAIN-SUFFIX,git.io,PROXY
   - DOMAIN-KEYWORD,github,PROXY
   # > Google
+  - DOMAIN-SUFFIX,ampproject.org,PROXY
   - DOMAIN-SUFFIX,appspot.com,PROXY
   - DOMAIN-SUFFIX,blogger.com,PROXY
   - DOMAIN-SUFFIX,getoutline.org,PROXY
@@ -817,7 +818,6 @@ Rule:
   - DOMAIN-SUFFIX,alfredapp.com,PROXY
   - DOMAIN-SUFFIX,allconnected.co,PROXY
   - DOMAIN-SUFFIX,amplitude.com,PROXY
-  - DOMAIN-SUFFIX,ampproject.org,PROXY
   - DOMAIN-SUFFIX,angularjs.org,PROXY
   - DOMAIN-SUFFIX,aol.com,PROXY
   - DOMAIN-SUFFIX,aolcdn.com,PROXY
