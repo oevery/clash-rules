@@ -203,6 +203,8 @@ Rule:
   - DOMAIN-SUFFIX,scdn.co,GlobalMedia
   - DOMAIN-SUFFIX,spotify.com,GlobalMedia
   - DOMAIN-SUFFIX,spoti.fi,GlobalMedia
+  - DOMAIN-KEYWORD,spotify.com,GlobalMedia
+  - DOMAIN-KEYWORD,-spotify-com,GlobalMedia
   # > TIDAL
   - DOMAIN-SUFFIX,tidal.com,GlobalMedia
   ### (Video)
