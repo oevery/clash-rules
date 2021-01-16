@@ -1,0 +1,19 @@
+payload:
+  # Airpoint
+  - DOMAIN-SUFFIX,linkhub.cool
+  - DOMAIN-KEYWORD,cordcloud
+  - DOMAIN-SUFFIX,duyaoss.com
+  - DOMAIN-SUFFIX,renzhe.cloud
+  - DOMAIN-SUFFIX,v2tun.com
+
+  # TikTok
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,musical.ly
+
+  # others
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,wallhaven.cc
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,tinymediamanager.org
+  - DOMAIN-SUFFIX,jellyfin.org
+  - DOMAIN-SUFFIX,thetvdb.com
