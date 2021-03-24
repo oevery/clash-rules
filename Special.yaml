@@ -35,9 +35,6 @@ payload:
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
 
-  # > Spotify
-  - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
-
   # > Steam
   # - User-Agent,Steam*
   - DOMAIN-SUFFIX,pinyuncloud.com
@@ -51,12 +48,7 @@ payload:
   - PROCESS-NAME,UUBooster
 
   # > Windows
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
 
   # > Xunlei
   # - User-Agent,%E8%BF%85%E9%9B%B7
@@ -75,7 +67,6 @@ payload:
   - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,uTorrent.exe
   - PROCESS-NAME,WebTorrent.exe
-
   - PROCESS-NAME,aria2c
   # - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -116,6 +107,3 @@ payload:
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-SUFFIX,smtp
   # - URL-REGEX,(Subject|HELO|SMTP)
-
-  - DOMAIN-SUFFIX,moonbegonia.xyz
-  - DOMAIN-SUFFIX,nfmovies.com
