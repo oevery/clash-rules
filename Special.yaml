@@ -1,4 +1,8 @@
 payload:
+
+  - DOMAIN-SUFFIX,moonbegonia.xyz
+  - DOMAIN-SUFFIX,nfmovies.com
+  
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
