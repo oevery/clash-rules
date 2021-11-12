@@ -3,6 +3,10 @@ payload:
   - DOMAIN-SUFFIX,moonbegonia.xyz
   - DOMAIN-SUFFIX,nfmovies.com
   
+  # > clash dashboard
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
@@ -65,7 +69,7 @@ payload:
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,BitComet.exe
   # - PROCESS-NAME,fdm.exe
-  # - PROCESS-NAME,IDMan.exe
+  - PROCESS-NAME,IDMan.exe
   - PROCESS-NAME,NetTransport.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,Thunder.exe
