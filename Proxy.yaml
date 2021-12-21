@@ -13,7 +13,7 @@ payload:
   # others
   - DOMAIN-SUFFIX,apkmirror.com
   - DOMAIN-SUFFIX,wallhaven.cc
-  - DOMAIN-SUFFIX,tmdb.org
-  - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,jellyfin.org
+  - DOMAIN-SUFFIX,tinymediamanager.org
+  - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
