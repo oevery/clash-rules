@@ -17,3 +17,4 @@ payload:
   - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN_SUFFIX,openmediavault.org
