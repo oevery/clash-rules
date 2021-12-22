@@ -18,3 +18,4 @@ payload:
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
   - DOMAIN_SUFFIX,openmediavault.org
+  - DOMAIN_SUFFIX,syncthing.net
