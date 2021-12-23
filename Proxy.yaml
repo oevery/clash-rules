@@ -17,5 +17,5 @@ payload:
   - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
-  - DOMAIN_SUFFIX,openmediavault.org
-  - DOMAIN_SUFFIX,syncthing.net
+  - DOMAIN-SUFFIX,openmediavault.org
+  - DOMAIN-SUFFIX,syncthing.net
