@@ -6,17 +6,7 @@ payload:
   - DOMAIN-SUFFIX,renzhe.cloud
   - DOMAIN-SUFFIX,v2tun.com
 
-  # TikTok
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,musical.ly
-
   # others
-  - DOMAIN-SUFFIX,apkmirror.com
   - DOMAIN-SUFFIX,wallhaven.cc
-  - DOMAIN-SUFFIX,jellyfin.org
   - DOMAIN-SUFFIX,tinymediamanager.org
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,thetvdb.com
   - DOMAIN-SUFFIX,openmediavault.org
-  - DOMAIN-SUFFIX,syncthing.net
-  - DOMAIN-SUFFIX,rarbgprx.org
