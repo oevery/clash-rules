@@ -15,6 +15,7 @@ rules:
   - RULE-SET,Game,Game
 
   - RULE-SET,Proxy,Proxy
+  - RULE-SET,Proxy_Domain,Proxy
   - RULE-SET,China,Domestic
 
   - GEOIP,CN,Domestic
