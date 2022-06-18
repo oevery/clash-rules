@@ -8,11 +8,14 @@ rules:
   - RULE-SET,GlobalMedia,Global TV
 
   - RULE-SET,Special,Domestic
+  - RULE-SET,Custom_Proxy,Proxy
   - RULE-SET,PrivateTracker,Domestic
 
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Game,Game
+
+  - RULE-SET,Developer,Proxy
 
   - RULE-SET,Proxy,Proxy
   - RULE-SET,Proxy_Domain,Proxy

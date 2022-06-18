@@ -95,7 +95,7 @@ rule-providers:
     url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Special.yaml
     path: ./Rules/Special
     interval: 86400
-  Custom Proxy:
+  Custom_Proxy:
     type: http
     behavior: classical
     url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Proxy.yaml

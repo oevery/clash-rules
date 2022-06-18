@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,renzhe.cloud
   - DOMAIN-SUFFIX,v2tun.com
+  - DOMAIN-SUFFIX,rutracker.org
 
   # others
   - DOMAIN-SUFFIX,wallhaven.cc
