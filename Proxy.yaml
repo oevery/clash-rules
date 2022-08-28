@@ -6,6 +6,9 @@ payload:
   - DOMAIN-SUFFIX,renzhe.cloud
   - DOMAIN-SUFFIX,v2tun.com
   - DOMAIN-SUFFIX,rutracker.org
+  
+  # npm
+  - DOMAIN-SUFFIX,https://registry.npmjs.org
 
   # others
   - DOMAIN-SUFFIX,wallhaven.cc
