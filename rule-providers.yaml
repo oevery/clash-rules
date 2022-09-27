@@ -77,17 +77,17 @@ rule-providers:
     url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
     path: ./Rules/PrivateTracker
     interval: 86400
-  Lan:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-    path: ./Rules/Lan
-    interval: 86400
   Developer:
     type: http
     behavior: classical
     url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Developer/Developer.yaml
     path: ./Rules/Developer
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
+    path: ./Rules/GoogleFCM
     interval: 86400
   Special:
     type: http
@@ -100,4 +100,10 @@ rule-providers:
     behavior: classical
     url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Proxy.yaml
     path: ./Rules/Custom Proxy
+    interval: 86400
+  Lan:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+    path: ./Rules/Lan
     interval: 86400
