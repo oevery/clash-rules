@@ -5,13 +5,10 @@ payload:
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,renzhe.cloud
   - DOMAIN-SUFFIX,v2tun.com
-  - DOMAIN-SUFFIX,rutracker.org
-  
-  # npm
-  - DOMAIN-SUFFIX,https://registry.npmjs.org
 
   # others
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,openmediavault.org
   - DOMAIN-SUFFIX,xiaomi.eu
+  - DOMAIN-SUFFIX,rutracker.org
