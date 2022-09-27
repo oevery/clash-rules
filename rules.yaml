@@ -27,7 +27,7 @@ rules:
   - RULE-SET,GoogleFCM,GoogleFCM
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,PrivateTracker,Domestic
-  - Developer,Proxy
+  - RULE-SET,Developer,Proxy
 
   - GEOIP,CN,Domestic
   - MATCH,Others
