@@ -4,13 +4,13 @@ rules:
 
   - RULE-SET,Lan,DIRECT
 
-  - RULE_SET,AdvertisingLite,AdBlock
-  - RULE_SET,AdvertisingLite_Domain,AdBlock
-  - RULE_SET,Hijacking,AdBlock
-  - RULE_SET,Privacy,AdBlock
-  - RULE_SET,Privacy_Domain,AdBlock
-  - RULE_SET,ZhihuAds,AdBlock
-  - RULE_SET,AdvertisingMiTV,AdBlock
+  - RULE-SET,AdvertisingLite,AdBlock
+  - RULE-SET,AdvertisingLite_Domain,AdBlock
+  - RULE-SET,Hijacking,AdBlock
+  - RULE-SET,Privacy,AdBlock
+  - RULE-SET,Privacy_Domain,AdBlock
+  - RULE-SET,ZhihuAds,AdBlock
+  - RULE-SET,AdvertisingMiTV,AdBlock
 
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
