@@ -7,7 +7,7 @@ rule-providers:
     interval: 86400
   AdvertisingLite_Domain:
     type: http
-    behavior: classical
+    behavior: domain
     url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml'
     path: ./Rules/AdvertisingLite_Domain.yaml
     interval: 86400
@@ -25,7 +25,7 @@ rule-providers:
     interval: 86400
   Privacy_Domain:
     type: http
-    behavior: classical
+    behavior: domain
     url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain.yaml'
     path: ./Rules/Privacy_Domain.yaml
     interval: 86400
