@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,discordstatus.com
   - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
+  - PROCESS-NAME,Discord.exe
   - PROCESS-NAME,Discord
   - PROCESS-NAME,Discord Helper
   - PROCESS-NAME,Discord Helper (Renderer)
