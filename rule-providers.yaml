@@ -131,6 +131,13 @@ rule-providers:
     path: ./Rules/GoogleFCM.yaml
     interval: 86400
 
+  Discord:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Discord.yaml
+    path: ./Rules/Discord.yaml
+    interval: 86400
+
   Speedtest:
     type: http
     behavior: classical
