@@ -36,3 +36,4 @@ payload:
   - PROCESS-NAME,Discord
   - PROCESS-NAME,Discord Helper
   - PROCESS-NAME,Discord Helper (Renderer)
+  - PROCESS-NAME,com.discord
