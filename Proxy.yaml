@@ -12,3 +12,4 @@ payload:
   - DOMAIN-SUFFIX,openmediavault.org
   - DOMAIN-SUFFIX,xiaomi.eu
   - DOMAIN-SUFFIX,rutracker.org
+  - DOMAIN-SUFFIX,vercel.com
