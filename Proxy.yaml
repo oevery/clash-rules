@@ -2,6 +2,7 @@ payload:
   # Airpoint
   - DOMAIN-SUFFIX,linkhub.cool
   - DOMAIN-KEYWORD,cordcloud
+  - DOMAIN-SUFFIX,cordc.net
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,renzhe.cloud
   - DOMAIN-SUFFIX,v2tun.com
