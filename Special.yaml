@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,moonbegonia.xyz
   - DOMAIN-SUFFIX,oevery.me
   - DOMAIN-SUFFIX,nfmovies.com
-  - SRC-IP-CIDR,124.156.155.4/32
+  - IP-CIDR,124.156.155.4/32
 
   # > Apple CDN
   - PROCESS-NAME,storedownloadd
