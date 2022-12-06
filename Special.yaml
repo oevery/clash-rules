@@ -39,6 +39,9 @@ payload:
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
 
+  # > Naraka
+  - PROCESS-NAME,NarakaBladepoint.exe
+
   # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
