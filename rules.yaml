@@ -17,6 +17,7 @@ rules:
   - RULE-SET,ChinaMedia,Domestic
 
   - RULE-SET,Game,Game
+  - RULE-SET,GameExtra,Game
   - RULE-SET,Discord,Discord
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
