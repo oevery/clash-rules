@@ -84,3 +84,6 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+
+  # 加速器
+  - PROCESS-NAME,local333.exe
