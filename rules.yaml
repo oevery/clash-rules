@@ -16,8 +16,6 @@ rules:
   - RULE-SET,GlobalMedia,Global TV
   - RULE-SET,ChinaMedia,Domestic
 
-  - RULE-SET,Game,Game
-  - RULE-SET,GameExtra,Game
   - RULE-SET,Discord,Discord
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
@@ -27,6 +25,8 @@ rules:
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,PrivateTracker,Domestic
   - RULE-SET,Developer,Proxy
+  - RULE-SET,Game,Game
+  - RULE-SET,GameExtra,Game
 
   - RULE-SET,ProxyLite,Proxy
   - RULE-SET,ChinaNoMedia,Domestic
