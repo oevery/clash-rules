@@ -5,5 +5,5 @@ payload:
   - PROCESS-NAME,com.Gaggle.fun.GooseGooseDuck
 
   # Raft
-  - PROCESS-NAME,Raft
-  - PROCESS-NAME,Raft.exe
+  # - PROCESS-NAME,Raft
+  # - PROCESS-NAME,Raft.exe
