@@ -87,6 +87,9 @@ payload:
   - PROCESS-NAME,ToDesk.exe
   - PROCESS-NAME,ToDesk
 
-  # 加速器
+  # > 加速器
+  # 赛博加速器
   - PROCESS-NAME,local333.exe
+  - PROCESS-NAME,Saibo
+  # UU加速器
   - PROCESS-NAME,UUBooster
