@@ -39,9 +39,6 @@ payload:
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
 
-  # > Naraka
-  - PROCESS-NAME,NarakaBladepoint.exe
-
   # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
@@ -54,9 +51,6 @@ payload:
   # > Tesla
   - DOMAIN-SUFFIX,tesla.cn
   - DOMAIN-SUFFIX,tesla-cdn.thron.cn
-
-  # > UUBooster
-  - PROCESS-NAME,UUBooster
 
   # > Xunlei
   # - USER-AGENT,%E8%BF%85%E9%9B%B7
@@ -85,5 +79,14 @@ payload:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
 
+  # > Naraka
+  - PROCESS-NAME,NarakaBladepoint.exe
+
+  # > 远程桌面
+  - PROCESS-NAME,ToDesk_Service
+  - PROCESS-NAME,ToDesk.exe
+  - PROCESS-NAME,ToDesk
+
   # 加速器
   - PROCESS-NAME,local333.exe
+  - PROCESS-NAME,UUBooster

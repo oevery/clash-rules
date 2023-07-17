@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,larksuite.com
   - DOMAIN-SUFFIX,openmediavault.org
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,rutracker.org
   - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,vercel.app
