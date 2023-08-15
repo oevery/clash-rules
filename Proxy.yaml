@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,v2tun.com
 
   # others
+  - DOMAIN-SUFFIX,alpinelinux.org
   - DOMAIN-SUFFIX,aproplus.top
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,jsdelivr.net
