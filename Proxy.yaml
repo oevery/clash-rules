@@ -10,11 +10,14 @@ payload:
   # others
   - DOMAIN-SUFFIX,alpinelinux.org
   - DOMAIN-SUFFIX,aproplus.top
+  - DOMAIN-SUFFIX,debian.org
   - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,grafana.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,larksuite.com
   - DOMAIN-SUFFIX,openmediavault.org
   - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,rutracker.org
   - DOMAIN-SUFFIX,tinymediamanager.org
   - DOMAIN-SUFFIX,vercel.app
