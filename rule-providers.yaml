@@ -1,59 +1,129 @@
 rule-providers:
-  AdvertisingLite:
+  Advertising:
     type: http
     behavior: classical
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml'
-    path: ./Rules/AdvertisingLite.yaml
+    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_No_Resolve.yaml'
+    path: ./Rules/Advertising.yaml
     interval: 86400
-  AdvertisingLite_Domain:
+  Advertising_Domain:
     type: http
     behavior: domain
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml'
-    path: ./Rules/AdvertisingLite_Domain.yaml
-    interval: 86400
-  Hijacking:
-    type: http
-    behavior: classical
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml'
-    path: ./Rules/Hijacking.yaml
-    interval: 86400
-  Privacy:
-    type: http
-    behavior: classical
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy.yaml'
-    path: ./Rules/Privacy.yaml
-    interval: 86400
-  Privacy_Domain:
-    type: http
-    behavior: domain
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain.yaml'
-    path: ./Rules/Privacy_Domain.yaml
+    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain_For_Clash.txt'
+    path: ./Rules/Advertising_Domain.txt
     interval: 86400
   ZhihuAds:
     type: http
     behavior: classical
-    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml'
+    url: 'https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds_No_Resolve.yaml'
     path: ./Rules/ZhihuAds.yaml
     interval: 86400
   AdvertisingMiTV:
     type: http
     behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.yaml
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV_No_Resolve.yaml
     path: ./Rules/AdvertisingMiTV.yaml
+    interval: 86400
+
+  AsianMedia:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AsianMedia/AsianMedia_No_Resolve.yaml
+    path: ./Rules/AsianMedia.yaml
+    interval: 86400
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_No_Resolve.yaml
+    path: ./Rules/GlobalMedia.yaml
+    interval: 86400
+  GlobalMedia_Domain:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain_For_Clash.txt
+    path: ./Rules/GlobalMedia_Domain.txt
+    interval: 86400
+  ChinaMedia:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia_No_Resolve.yaml
+    path: ./Rules/ChinaMedia.yaml
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./Rules/Apple.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./Rules/Microsoft.yaml
+    interval: 86400
+  Developer:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Developer/Developer_No_Resolve.yaml
+    path: ./Rules/Developer.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
+    path: ./Rules/GitHub.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google_No_Resolve.yaml
+    path: ./Rules/Google.yaml
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM_No_Resolve.yaml
+    path: ./Rules/GoogleFCM.yaml
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest_No_Resolve.yaml
+    path: ./Rules/Speedtest.yaml
+    interval: 86400
+
+  ChinaNoMedia:
+    type: http
+    behavior: domain
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Domain_For_Clash.txt
+    path: ./Rules/ChinaNoMedia.txt
+    interval: 86400
+
+  PrivateTracker:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker_No_Resolve.yaml
+    path: ./Rules/PrivateTracker.yaml
     interval: 86400
 
   ProxyLite:
     type: http
     behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite_No_Resolve.yaml
     path: ./Rules/ProxyLite.yaml
     interval: 86400
 
-  ChinaNoMedia:
+  Game:
     type: http
     behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaNoMedia/ChinaNoMedia.yaml
-    path: ./Rules/ChinaNoMedia.yaml
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
+    path: ./Rules/Game.yaml
+    interval: 86400
+  GameExtra:
+    type: http
+    behavior: classical
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Game.yaml
+    path: ./Rules/GameExtra.yaml
     interval: 86400
 
   Special:
@@ -70,104 +140,9 @@ rule-providers:
     path: ./Rules/SpecialProxy.yaml
     interval: 86400
 
-  AsianMedia:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AsianMedia/AsianMedia.yaml
-    path: ./Rules/AsianMedia.yaml
-    interval: 86400
-  GlobalMedia:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
-    path: ./Rules/GlobalMedia.yaml
-    interval: 86400
-  ChinaMedia:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml
-    path: ./Rules/ChinaMedia.yaml
-    interval: 86400
-
-  Game:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
-    path: ./Rules/Game.yaml
-    interval: 86400
-  GameExtra:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Game.yaml
-    path: ./Rules/GameExtra.yaml
-    interval: 86400
-
-  Apple:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
-    path: ./Rules/Apple.yaml
-    interval: 86400
-
-  Microsoft:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-    path: ./Rules/Microsoft.yaml
-    interval: 86400
-
-  GitHub:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
-    path: ./Rules/GitHub.yaml
-    interval: 86400
-
-  Google:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
-    path: ./Rules/Google.yaml
-    interval: 86400
-
-  GoogleFCM:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
-    path: ./Rules/GoogleFCM.yaml
-    interval: 86400
-
-  Discord:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/Discord.yaml
-    path: ./Rules/Discord.yaml
-    interval: 86400
-
-  Speedtest:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
-    path: ./Rules/Speedtest.yaml
-    interval: 86400
-
-  PrivateTracker:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
-    path: ./Rules/PrivateTracker.yaml
-    interval: 86400
-
-  Developer:
-    type: http
-    behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Developer/Developer.yaml
-    path: ./Rules/Developer.yaml
-    interval: 86400
-
   Lan:
     type: http
     behavior: classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml
     path: ./Rules/Lan.yaml
     interval: 86400

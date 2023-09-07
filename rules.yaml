@@ -1,35 +1,34 @@
 rules:
+  - RULE-SET,Lan,DIRECT
+
   - RULE-SET,Special,Domestic
   - RULE-SET,SpecialProxy,Proxy
 
-  - RULE-SET,Lan,DIRECT
-
-  - RULE-SET,AdvertisingLite,AdBlock
-  - RULE-SET,AdvertisingLite_Domain,AdBlock
-  - RULE-SET,Hijacking,AdBlock
-  - RULE-SET,Privacy,AdBlock
-  - RULE-SET,Privacy_Domain,AdBlock
+  - RULE-SET,Advertising,AdBlock
+  - RULE-SET,Advertising_Domain,AdBlock
   - RULE-SET,ZhihuAds,AdBlock
   - RULE-SET,AdvertisingMiTV,AdBlock
 
   - RULE-SET,AsianMedia,Asian TV
   - RULE-SET,GlobalMedia,Global TV
+  - RULE-SET,GlobalMedia_Domain,Global TV
   - RULE-SET,ChinaMedia,Domestic
 
-  - RULE-SET,Discord,Discord
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Developer,Proxy
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Google,Proxy
   - RULE-SET,GoogleFCM,GoogleFCM
   - RULE-SET,Speedtest,Speedtest
-  - RULE-SET,PrivateTracker,Domestic
-  - RULE-SET,Developer,Proxy
+
   - RULE-SET,Game,Game
   - RULE-SET,GameExtra,Game
 
-  - RULE-SET,ProxyLite,Proxy
   - RULE-SET,ChinaNoMedia,Domestic
-
+  - RULE-SET,PrivateTracker,Domestic
   - GEOIP,CN,Domestic
+
+  - RULE-SET,ProxyLite,Proxy
+
   - MATCH,Others
