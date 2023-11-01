@@ -4,7 +4,6 @@ rules:
   - RULE-SET,Special,Domestic
   - RULE-SET,SpecialProxy,Proxy
 
-  - RULE-SET,Advertising,AdBlock
   - RULE-SET,Advertising_Domain,AdBlock
   - RULE-SET,ZhihuAds,AdBlock
   - RULE-SET,AdvertisingMiTV,AdBlock
