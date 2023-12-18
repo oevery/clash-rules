@@ -146,11 +146,17 @@ payload:
   - PROCESS-NAME,local333.exe
   ## UU加速器
   - PROCESS-NAME,UUBooster
+  - PROCESS-NAME,uu.exe
+  - PROCESS-NAME,uu_ball.exe
   ## 雷神加速器
   - PROCESS-NAME,leigod
   - PROCESS-NAME,leigod.exe
   - PROCESS-NAME,leishenSdk
   - PROCESS-NAME,leishenSdk.exe
+
+  # > tailscale
+  - PROCESS-NAME,tailscaled
+  - PROCESS-NAME,tailscaled.exe
 
   # > Others
   - DOMAIN-SUFFIX,moonbegonia.xyz
