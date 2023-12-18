@@ -137,6 +137,8 @@ payload:
   - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
   ## > Naraka
   - PROCESS-NAME,NarakaBladepoint.exe
+  ## > VALORANT
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
 
   # > 加速器
   ## 赛博加速器
