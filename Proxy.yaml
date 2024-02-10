@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,jellyfin.org
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,mod.io
   - DOMAIN-SUFFIX,openmediavault.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pypi.org
