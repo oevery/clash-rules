@@ -161,6 +161,9 @@ payload:
   # > 快手
   - DOMAIN-SUFFIX,kskwai.com
 
+  # >  ipgeolocation
+  - DOMAIN-SUFFIX,ipgeolocation.io
+
   # > Others
   - DOMAIN-SUFFIX,moonbegonia.xyz
   - DOMAIN-SUFFIX,oevery.me
