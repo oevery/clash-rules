@@ -158,6 +158,9 @@ payload:
   - PROCESS-NAME,tailscaled
   - PROCESS-NAME,tailscaled.exe
 
+  # > 快手
+  - DOMAIN-SUFFIX,kskwai.com
+
   # > Others
   - DOMAIN-SUFFIX,moonbegonia.xyz
   - DOMAIN-SUFFIX,oevery.me
