@@ -160,6 +160,7 @@ payload:
 
   # > 快手
   - DOMAIN-SUFFIX,kskwai.com
+  - DOMAIN-SUFFIX,upload.kuaishouzt.com
 
   # >  ipgeolocation
   - DOMAIN-SUFFIX,ipgeolocation.io
