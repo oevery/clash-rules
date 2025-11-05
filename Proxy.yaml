@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,aproplus.top
   - DOMAIN-SUFFIX,av-wiki.net
   - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,decohack.com
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,fc2club.top
   - DOMAIN-SUFFIX,fc2hub.com
@@ -26,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,openmediavault.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,ruanyifeng.com
   - DOMAIN-SUFFIX,rutracker.org
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,tinymediamanager.org
