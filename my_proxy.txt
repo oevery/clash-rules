@@ -1,0 +1,16 @@
+DOMAIN-SUFFIX,alpinelinux.org
+DOMAIN-SUFFIX,aproplus.top
+DOMAIN-SUFFIX,fc2club.top
+DOMAIN-SUFFIX,fc2hub.com
+DOMAIN-SUFFIX,freejavbt.com
+DOMAIN-SUFFIX,grafana.com
+DOMAIN-SUFFIX,jellyfin.org
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,larksuite.com
+DOMAIN-SUFFIX,mod.io
+DOMAIN-SUFFIX,openmediavault.org
+DOMAIN-SUFFIX,rutracker.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,tinymediamanager.org
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,xiaomi.eu

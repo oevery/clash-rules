@@ -1,0 +1,21 @@
+# Local
+DOMAIN-SUFFIX,homelab
+
+# Download
+DOMAIN-SUFFIX,download.555mac.com
+DOMAIN-SUFFIX,torrentmac.net
+DOMAIN-KEYWORD,mac-torrent-download
+PROCESS-NAME,xdm
+PROCESS-NAME,xdman
+
+# ToDesk
+PROCESS-NAME,ToDesk
+PROCESS-NAME,ToDesk_Service
+
+# 雷神加速器
+PROCESS-NAME,leigod
+PROCESS-NAME,leishenSdk
+
+# others
+PROCESS-NAME,AdGuardHome
+PROCESS-NAME,nmap
