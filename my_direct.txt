@@ -1,5 +1,6 @@
 # Local
 DOMAIN-SUFFIX,homelab
+DOMAIN-SUFFIX,oevery.me
 
 # Download
 DOMAIN-SUFFIX,download.555mac.com
