@@ -41,189 +41,154 @@ anchor-rule:
 rule-providers:
   reject_non_ip_no_drop:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject-no-drop.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject-no-drop.txt
     path: ./sukkaw_ruleset/reject_non_ip_no_drop.txt
   reject_non_ip_drop:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject-drop.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject-drop.txt
     path: ./sukkaw_ruleset/reject_non_ip_drop.txt
   reject_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/reject.txt
     path: ./sukkaw_ruleset/reject_non_ip.txt
   reject_domainset:
     <<: *domain
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/reject.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/reject.txt
     path: ./sukkaw_ruleset/reject_domainset.txt
   reject_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/reject.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/reject.txt
     path: ./sukkaw_ruleset/reject_ip.txt
 
   speedtest:
     <<: *domain
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/speedtest.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/speedtest.txt
     path: ./sukkaw_ruleset/speedtest.txt
 
-  stream_us_non_ip:
+  stream_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_us.txt
-    path: ./sukkaw_ruleset/stream_us_non_ip.txt
-  stream_us_ip:
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream.txt
+    path: ./sukkaw_ruleset/stream_non_ip.txt
+  stream_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_us.txt
-    path: ./sukkaw_ruleset/stream_us_ip.txt
-  stream_eu_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_eu.txt
-    path: ./sukkaw_ruleset/stream_eu_non_ip.txt
-  stream_eu_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_eu.txt
-    path: ./sukkaw_ruleset/stream_eu_ip.txt
-  stream_jp_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_jp.txt
-    path: ./sukkaw_ruleset/stream_jp_non_ip.txt
-  stream_jp_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_jp.txt
-    path: ./sukkaw_ruleset/stream_jp_ip.txt
-  stream_kr_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_kr.txt
-    path: ./sukkaw_ruleset/stream_kr_non_ip.txt
-  stream_kr_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_kr.txt
-    path: ./sukkaw_ruleset/stream_kr_ip.txt
-  stream_hk_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_hk.txt
-    path: ./sukkaw_ruleset/stream_hk_non_ip.txt
-  stream_hk_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_hk.txt
-    path: ./sukkaw_ruleset/stream_hk_ip.txt
-  stream_tw_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream_tw.txt
-    path: ./sukkaw_ruleset/stream_tw_non_ip.txt
-  stream_tw_ip:
-    <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream_tw.txt
-    path: ./sukkaw_ruleset/stream_tw_ip.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/stream.txt
+    path: ./sukkaw_ruleset/stream_ip.txt
 
   ai_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/ai.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/ai.txt
     path: ./sukkaw_ruleset/ai_non_ip.txt
   apple_intelligence_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_intelligence.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_intelligence.txt
     path: ./sukkaw_ruleset/apple_intelligence_non_ip.txt
 
   telegram_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/telegram.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/telegram.txt
     path: ./sukkaw_ruleset/telegram_non_ip.txt
   telegram_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/telegram.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/telegram.txt
     path: ./sukkaw_ruleset/telegram_ip.txt
 
   apple_cdn:
     <<: *domain
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/apple_cdn.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/apple_cdn.txt
     path: ./sukkaw_ruleset/apple_cdn.txt
   apple_services:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_services.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_services.txt
     path: ./sukkaw_ruleset/apple_services.txt
   apple_cn_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_cn.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/apple_cn.txt
     path: ./sukkaw_ruleset/apple_cn_non_ip.txt
 
   microsoft_cdn_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/microsoft_cdn.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/microsoft_cdn.txt
     path: ./sukkaw_ruleset/microsoft_cdn_non_ip.txt
   microsoft_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/microsoft.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/microsoft.txt
     path: ./sukkaw_ruleset/microsoft_non_ip.txt
 
   lan_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/lan.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/lan.txt
     path: ./sukkaw_ruleset/lan_non_ip.txt
   lan_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/lan.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/lan.txt
     path: ./sukkaw_ruleset/lan_ip.txt
 
   private_tracker:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.list
+    url: https://gh.oevery.me/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.list
     path: ./blackmatrix7_ruleset/private_tracker.txt
 
   steam_cn:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
+    url: https://gh.oevery.me/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
     path: ./blackmatrix7_ruleset/steam_cn.txt
   game_download_cn:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.list
+    url: https://gh.oevery.me/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.list
     path: ./blackmatrix7_ruleset/game_download_cn.txt
   game_download_domainset:
     <<: *domain
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/game-download.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/game-download.txt
     path: ./sukkaw_ruleset/game_download_domainset.txt
 
   download_domainset:
     <<: *domain
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/download.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/download.txt
     path: ./sukkaw_ruleset/download_domainset.txt
   download_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/download.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/download.txt
     path: ./sukkaw_ruleset/download_non_ip.txt
 
   domestic_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/domestic.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/domestic.txt
     path: ./sukkaw_ruleset/domestic_non_ip.txt
   direct_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/direct.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/direct.txt
     path: ./sukkaw_ruleset/direct_non_ip.txt
   global_non_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/global.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/global.txt
     path: ./sukkaw_ruleset/global_non_ip.txt
   domestic_ip:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/domestic.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/domestic.txt
     path: ./sukkaw_ruleset/domestic_ip.txt
 
   china_ip:
     <<: *ip
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/china_ip.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/china_ip.txt
     path: ./sukkaw_ruleset/china_ip.txt
 
   my_direct:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/my_direct.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-rules/master/my_direct.txt
     path: ./oevery_ruleset/my_direct.txt
   my_proxy:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/my_proxy.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-rules/master/my_proxy.txt
     path: ./oevery_ruleset/my_proxy.txt
   my_plus:
     <<: *classical
-    url: https://gh.oevery.me/https://raw.githubusercontent.com/oevery/clash-rules/master/my_plus.txt
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-rules/master/my_plus.txt
     path: ./oevery_ruleset/my_plus.txt
+
+  fakeip_filter_domainset:
+    <<: *domain
+    url: https://gh.oevery.me/raw.githubusercontent.com/juewuy/ShellCrash/dev/public/fake_ip_filter.list
+    path: ./shellcrash_ruleset/fakeip_filter_domainset.txt
 
 rules:
   - RULE-SET,my_direct,直连
@@ -238,18 +203,8 @@ rules:
 
   - RULE-SET,speedtest,测速
 
-  - RULE-SET,stream_us_non_ip,国外媒体
-  - RULE-SET,stream_eu_non_ip,国外媒体
-  - RULE-SET,stream_jp_non_ip,国外媒体
-  - RULE-SET,stream_kr_non_ip,国外媒体
-  - RULE-SET,stream_hk_non_ip,国外媒体
-  - RULE-SET,stream_tw_non_ip,国外媒体
-  - RULE-SET,stream_us_ip,国外媒体
-  - RULE-SET,stream_eu_ip,国外媒体
-  - RULE-SET,stream_jp_ip,国外媒体
-  - RULE-SET,stream_kr_ip,国外媒体
-  - RULE-SET,stream_hk_ip,国外媒体
-  - RULE-SET,stream_tw_ip,国外媒体
+  - RULE-SET,stream_non_ip,国外媒体
+  - RULE-SET,stream_ip,国外媒体
 
   - RULE-SET,ai_non_ip,AI
   - RULE-SET,apple_intelligence_non_ip,AI
@@ -281,6 +236,5 @@ rules:
   - RULE-SET,global_non_ip,代理
   - RULE-SET,domestic_ip,国内
   - RULE-SET,china_ip,国内
-  - GEOIP,CN,国内
 
   - MATCH,其他
