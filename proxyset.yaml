@@ -1,12 +1,20 @@
 anchor-p:
-  p: &p { type: http,  interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+  pf: &pf { type: file, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+  ph: &ph { type: http, interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
   preferred_proxy: &preferred_proxy { type: select, proxies: [代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域, 直连] }
   preferred_direct: &preferred_direct { type: select, proxies: [直连, 代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域] }
 
 proxy-providers:
   provider1:
-    <<: *p
+    <<: *ph
     url: "http://example.com/clash.yaml"
+    path: ./proxy_providers/provider1.yaml
+    # 排除倍率大于等于1的节点
+    filter: '.*倍率[:：]?\s*\b(?:0(?:\.\d+)?|1(?:\.0+)?)(?![\d.])\b.*'
+  # 本地 provider 示例
+  # provider2:
+  #   <<: *pf
+  #   path: ./proxy_providers/provider2.yaml
 
 proxies:
 - { name: "直连", type: direct , udp: true }

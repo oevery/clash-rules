@@ -1,14 +1,20 @@
 anchor-p:
-  p: &p { type: http, interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+  pf: &pf { type: file, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+  ph: &ph { type: http, interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
   preferred_proxy: &preferred_proxy { type: select, proxies: [代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域, 直连] }
   preferred_direct: &preferred_direct { type: select, proxies: [直连, 代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域] }
 
 proxy-providers:
   provider1:
-    <<: *p
+    <<: *ph
     url: "http://example.com/clash.yaml"
+    path: ./proxy_providers/provider1.yaml
     # 排除倍率大于等于1的节点
     filter: '.*倍率[:：]?\s*\b(?:0(?:\.\d+)?|1(?:\.0+)?)(?![\d.])\b.*'
+  # 本地 provider 示例
+  # provider2:
+  #   <<: *pf
+  #   path: ./proxy_providers/provider2.yaml
 
 proxies:
 - { name: "直连", type: direct , udp: true }
@@ -32,6 +38,87 @@ proxy-groups:
 - { name: 日本, type: select, include-all: true, filter: "(?i)(?!直连)(🇯🇵|日|东京|jp|japan)" }
 - { name: 美国, type: select, include-all: true, filter: "(?i)(?!直连)(🇺🇸|🇺🇲|美|us|states|america)" }
 - { name: 其他区域, type: select, include-all: true, filter: "(?i)^(?!.*(直连|🇭🇰|港|hk|hong|🇹🇼|台|tw|taiwan|🇸🇬|新加坡|坡|狮城|sg|singapore|🇯🇵|日|东京|jp|japan|🇺🇸|🇺🇲|美|us|states|america)).*" }
+
+mixed-port: 7890  # HTTP(S) 和 SOCKS 代理混合端口
+# redir-port: 7893  # 透明代理端口
+# tproxy-port: 7894 # TProxy 透明代理端口
+
+allow-lan: false # 允许局域网连接
+
+mode: rule
+
+log-level: info # 日志等级 silent/error/warning/info/debug
+
+ipv6: true
+
+external-controller: 0.0.0.0:9090
+secret: ""
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+unified-delay: true # 统一延迟
+tcp-concurrent: true  # TCP 并发
+
+geodata-mode: true
+geox-url:
+  geoip: "https://gh.oevery.me/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://gh.oevery.me/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://gh.oevery.me/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+  asn: "https://gh.oevery.me/github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+
+geo-auto-update: false  # 是否自动更新 geodata
+geo-update-interval: 24 # 更新间隔，单位：小时
+
+dns:
+  enable: true
+  cache-algorithm: arc
+  use-hosts: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  # DNS遵循代理设置，需配置proxy-server-nameserver
+  respect-rules: true
+  default-nameserver:
+    - https://223.5.5.5/dns-query
+  # 默认的域名解析服务器
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    # - "https://dns.cloudflare.com/dns-query#h3=true"
+    # - "https://dns.google/dns-query#h3=true"
+  direct-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  # 专用于节点域名解析的 DNS 服务器
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  # 指定地址使用特定DNS解析服务器
+  nameserver-policy:
+    "geosite:geolocation-!cn,tld-!cn":
+      - "https://dns.cloudflare.com/dns-query#h3=true"
+      - "https://dns.google/dns-query#h3=true"
+  fake-ip-filter:
+    - "*.homelab"
+    - "rule-set:fakeip_filter_domainset"
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: ["any:53", "tcp://any:53"]
+  auto-route: true  # 配置路由表
+  auto-redirect: true # 重定向连接
+  auto-detect-interface: true # 自动识别出口网卡
+  route-exclude-address:
+    - 192.168.0.0/16
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - fc00::/7
+    - fd7a:115c:a1e0::/48
+  exclude-package:
+    - com.tailscale.ipn
 
 anchor-rule:
   classical: &classical { type: http, behavior: classical, format: text, interval: 43200 }

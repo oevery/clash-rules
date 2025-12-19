@@ -45,8 +45,8 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    # - "https://dns.google/dns-query#h3=true"
     # - "https://dns.cloudflare.com/dns-query#h3=true"
+    # - "https://dns.google/dns-query#h3=true"
   direct-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -57,8 +57,8 @@ dns:
   # 指定地址使用特定DNS解析服务器
   nameserver-policy:
     "geosite:geolocation-!cn,tld-!cn":
-      - "https://dns.google/dns-query#h3=true"
       - "https://dns.cloudflare.com/dns-query#h3=true"
+      - "https://dns.google/dns-query#h3=true"
   fake-ip-filter:
     - "*.homelab"
     - "rule-set:fakeip_filter_domainset"

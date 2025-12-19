@@ -9,6 +9,9 @@ DOMAIN-KEYWORD,mac-torrent-download
 PROCESS-NAME,xdm
 PROCESS-NAME,xdman
 
+# easytier
+PROCESS-NAME,easytier-core
+
 # ToDesk
 PROCESS-NAME,ToDesk
 PROCESS-NAME,ToDesk_Service
