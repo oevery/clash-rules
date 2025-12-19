@@ -1,5 +1,6 @@
 anchor-p:
   pf: &pf { type: file, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+  pho: &pho { type: http, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
   ph: &ph { type: http, interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
   preferred_proxy: &preferred_proxy { type: select, proxies: [代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域, 直连] }
   preferred_direct: &preferred_direct { type: select, proxies: [直连, 代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域] }
