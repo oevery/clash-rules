@@ -30,6 +30,15 @@ rule-providers:
     url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/domainset/speedtest.txt
     path: ./sukkaw_ruleset/speedtest.txt
 
+  cdn_domainset:
+    <<: *domain
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master//Clash/domainset/cdn.txt
+    path: ./sukkaw_ruleset/cdn_domainset.txt
+  cdn_non_ip:
+    <<: *classical
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/cdn.txt
+    path: ./sukkaw_ruleset/cdn_non_ip.txt
+
   stream_non_ip:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/stream.txt
@@ -79,15 +88,6 @@ rule-providers:
     url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/microsoft.txt
     path: ./sukkaw_ruleset/microsoft_non_ip.txt
 
-  lan_non_ip:
-    <<: *classical
-    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/lan.txt
-    path: ./sukkaw_ruleset/lan_non_ip.txt
-  lan_ip:
-    <<: *classical
-    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/lan.txt
-    path: ./sukkaw_ruleset/lan_ip.txt
-
   private_tracker:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.list
@@ -114,6 +114,15 @@ rule-providers:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/download.txt
     path: ./sukkaw_ruleset/download_non_ip.txt
+
+  lan_non_ip:
+    <<: *classical
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/non_ip/lan.txt
+    path: ./sukkaw_ruleset/lan_non_ip.txt
+  lan_ip:
+    <<: *classical
+    url: https://gh.oevery.me/raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/Clash/ip/lan.txt
+    path: ./sukkaw_ruleset/lan_ip.txt
 
   domestic_non_ip:
     <<: *classical
@@ -167,6 +176,9 @@ rules:
   - RULE-SET,reject_ip,REJECT
 
   - RULE-SET,speedtest,测速
+
+  - RULE-SET,cdn_domainset,代理
+  - RULE-SET,cdn_non_ip,代理
 
   - RULE-SET,stream_non_ip,国外媒体
   - RULE-SET,stream_ip,国外媒体
