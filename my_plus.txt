@@ -1,3 +1,5 @@
 DOMAIN-SUFFIX,18comic.vip
 DOMAIN-SUFFIX,18comic.org
 DOMAIN-SUFFIX,hentaiverse.org
+# 放行被 skk 拉黑的掘金
+DOMAIN-SUFFIX,juejin.cn
