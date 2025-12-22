@@ -1,6 +1,5 @@
 # Local
 DOMAIN-SUFFIX,homelab
-DOMAIN-SUFFIX,oevery.me
 
 # Download
 DOMAIN-SUFFIX,download.555mac.com
@@ -23,3 +22,5 @@ PROCESS-NAME,leishenSdk
 # others
 PROCESS-NAME,AdGuardHome
 PROCESS-NAME,nmap
+DOMAIN-SUFFIX,oevery.me
+IP-CIDR,124.156.155.4/32
