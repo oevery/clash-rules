@@ -18,8 +18,8 @@ proxy-groups:
 - { name: 国内, type: select, proxies: [直连, 代理] }
 
 - { name: 香港, type: fallback, include-all: true, true, filter: "(?i)(?!直连)(🇭🇰|港|hk|hong)" }
-- { name: 台湾, type: fallback, include-all: true, filter: "(?i)(?!直连)(🇹🇼|台|tw|taiwan)" }
-- { name: 新加坡, type: fallback, include-all: true, filter: "(?i)(?!直连)(🇸🇬|新加坡|坡|狮城|sg|singapore)" }
-- { name: 日本, type: fallback, include-all: true, filter: "(?i)(?!直连)(🇯🇵|日|东京|jp|japan)" }
-- { name: 美国, type: fallback, include-all: true, filter: "(?i)(?!直连)(🇺🇸|🇺🇲|美|us|states|america)" }
+- { name: 台湾, type: select, include-all: true, filter: "(?i)(?!直连)(🇹🇼|台|tw|taiwan)" }
+- { name: 新加坡, type: select, include-all: true, filter: "(?i)(?!直连)(🇸🇬|新加坡|坡|狮城|sg|singapore)" }
+- { name: 日本, type: select, include-all: true, filter: "(?i)(?!直连)(🇯🇵|日|东京|jp|japan)" }
+- { name: 美国, type: select, include-all: true, filter: "(?i)(?!直连)(🇺🇸|🇺🇲|美|us|states|america)" }
 - { name: 其他区域, type: select, include-all: true, filter: "(?i)^(?!.*(直连|🇭🇰|港|hk|hong|🇹🇼|台|tw|taiwan|🇸🇬|新加坡|坡|狮城|sg|singapore|🇯🇵|日|东京|jp|japan|🇺🇸|🇺🇲|美|us|states|america)).*" }
