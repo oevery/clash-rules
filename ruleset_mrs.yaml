@@ -1,6 +1,7 @@
 anchor-rule:
   classical: &classical { type: http, behavior: classical, format: text, interval: 43200 }
   domain: &domain { type: http, behavior: domain, format: text, interval: 43200 }
+  domain_mrs: &domain_mrs { type: http, behavior: domain, format: mrs, interval: 43200 }
   ip: &ip { type: http, behavior: ipcidr, format: text, interval: 43200 }
 
 rule-providers:
@@ -17,23 +18,23 @@ rule-providers:
     url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/non_ip/reject.txt
     path: ./sukkaw_ruleset/reject_non_ip.txt
   reject_domainset:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/reject.txt
-    path: ./sukkaw_ruleset/reject_domainset.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/reject.mrs
+    path: ./sukkaw_ruleset/reject_domainset.mrs
   reject_ip:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/ip/reject.txt
     path: ./sukkaw_ruleset/reject_ip.txt
 
   speedtest:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/speedtest.txt
-    path: ./sukkaw_ruleset/speedtest.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/speedtest.mrs
+    path: ./sukkaw_ruleset/speedtest.mrs
 
   cdn_domainset:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/cdn.txt
-    path: ./sukkaw_ruleset/cdn_domainset.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/cdn.mrs
+    path: ./sukkaw_ruleset/cdn_domainset.mrs
   cdn_non_ip:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/non_ip/cdn.txt
@@ -67,9 +68,9 @@ rule-providers:
     path: ./sukkaw_ruleset/telegram_ip.txt
 
   apple_cdn:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/apple_cdn.txt
-    path: ./sukkaw_ruleset/apple_cdn.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/apple_cdn.mrs
+    path: ./sukkaw_ruleset/apple_cdn.mrs
   apple_services:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/non_ip/apple_services.txt
@@ -102,14 +103,14 @@ rule-providers:
     url: https://gh.oevery.me/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.list
     path: ./blackmatrix7_ruleset/game_download_cn.txt
   game_download_domainset:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/game-download.txt
-    path: ./sukkaw_ruleset/game_download_domainset.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/game-download.mrs
+    path: ./sukkaw_ruleset/game_download_domainset.mrs
 
   download_domainset:
-    <<: *domain
-    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/download.txt
-    path: ./sukkaw_ruleset/download_domainset.txt
+    <<: *domain_mrs
+    url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/domainset/download.mrs
+    path: ./sukkaw_ruleset/download_domainset.mrs
   download_non_ip:
     <<: *classical
     url: https://gh.oevery.me/raw.githubusercontent.com/oevery/clash-ruleset/release/non_ip/download.txt
