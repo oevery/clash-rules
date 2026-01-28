@@ -1,27 +1,12 @@
-anchor-p:
-  pf: &pf { type: file, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
-  pho: &pho { type: http, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
-  ph: &ph { type: http, interval: 43200, proxy: DIRECT, health-check: { enable: true, url: https://www.gstatic.com/generate_204, interval: 300 } }
+anchor-proxy:
   preferred_proxy: &preferred_proxy { type: select, proxies: [代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域, 直连] }
   preferred_direct: &preferred_direct { type: select, proxies: [直连, 代理, 香港, 台湾, 新加坡, 日本, 美国, 其他区域] }
-
-proxy-providers:
-  provider1:
-    <<: *ph
-    url: "http://example.com/clash.yaml"
-    path: ./proxy_providers/provider1.yaml
-    # 排除倍率大于等于1的节点
-    filter: '.*倍率[:：]?\s*\b(?:0(?:\.\d+)?|1(?:\.0+)?)(?![\d.])\b.*'
-  # 本地 provider 示例
-  # provider2:
-  #   <<: *pf
-  #   path: ./proxy_providers/provider2.yaml
 
 proxies:
 - { name: "直连", type: direct , udp: true }
 
 proxy-groups:
-- { name: 代理, type: select, proxies: [香港自动选择, 香港, 新加坡, 台湾, 日本, 美国, 其他区域, 直连] }
+- { name: 代理, type: select, proxies: [香港, 新加坡, 台湾, 日本, 美国, 其他区域, 直连] }
 - { name: 其他, type: select, proxies: [直连, 代理] }
 - { name: 国外媒体, <<: *preferred_proxy }
 - { name: AI, <<: *preferred_proxy }
@@ -32,7 +17,6 @@ proxy-groups:
 - { name: 测速, <<: *preferred_direct }
 - { name: 国内, type: select, proxies: [直连, 代理] }
 
-- { name: 香港自动选择, type: url-test, include-all: true, filter: "(?i)(?!直连)(🇭🇰|港|hk|hong)" }
 - { name: 香港, type: select, include-all: true, true, filter: "(?i)(?!直连)(🇭🇰|港|hk|hong)" }
 - { name: 台湾, type: select, include-all: true, filter: "(?i)(?!直连)(🇹🇼|台|tw|taiwan)" }
 - { name: 新加坡, type: select, include-all: true, filter: "(?i)(?!直连)(🇸🇬|新加坡|坡|狮城|sg|singapore)" }
