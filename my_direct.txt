@@ -22,5 +22,3 @@ PROCESS-NAME,leishenSdk
 # others
 PROCESS-NAME,AdGuardHome
 PROCESS-NAME,nmap
-DOMAIN-SUFFIX,oevery.me
-IP-CIDR,154.9.253.41/32

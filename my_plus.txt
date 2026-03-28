@@ -1,5 +1,8 @@
-DOMAIN-SUFFIX,18comic.vip
-DOMAIN-SUFFIX,18comic.org
-DOMAIN-SUFFIX,hentaiverse.org
+DOMAIN-SUFFIX,oevery.me
+IP-CIDR,154.9.253.41/32
+
 # 放行被 skk 拉黑的掘金
 DOMAIN-SUFFIX,juejin.cn
+
+# 中转站
+DOMAIN-SUFFIX,autocode.space
