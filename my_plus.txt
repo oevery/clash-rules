@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,juejin.cn
 
 # 中转站
 DOMAIN-SUFFIX,autocode.space
+DOMAIN-SUFFIX,hk.suanlba.dev
